@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Quora URL Search Extension",
+    "version": "1.0",
+    "description": "Automatically adds ?=search to the end of all Quora URLs",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "permissions": ["tabs"],
+    "manifest_version": 2
+  }
+  
